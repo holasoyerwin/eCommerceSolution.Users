@@ -24,7 +24,7 @@ namespace eCommerce.Core.Validators
             //PersonName
             RuleFor(temp => temp.PersonName)
               .NotEmpty().WithMessage("PersonName is required")
-              .Length(1, 50).WithMessage("The minimium nuber of character is 1 and the maxinum is 50 characters")
+              .Length(1, 50).WithMessage("The minimium number of character is 1 and the maxinum is 50 characters")
               ;
 
             // Validate the Gender property.
